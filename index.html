@@ -1,0 +1,6 @@
+---
+layout: mainpage
+---
+
+{% capture my-include %}{% include mainpage.md %}{% endcapture %}
+{{ my-include | markdownify }}
