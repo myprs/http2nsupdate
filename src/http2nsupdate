@@ -1,0 +1,8 @@
+#!/bin/bash 
+
+BIN="http2nsupdate.rb"
+
+[ -f $BIN ] || { echo "ERROR: Binary \"$BIN\" not found. Aborting."; exit -1 ; }
+[ -x $BIN ] || { echo "ERROR: Binary \"$BIN\" not executable. Unsufficient privileges. Aborting."; exit -2 ; }
+
+ruby http2nsupdate.rb
