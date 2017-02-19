@@ -14,7 +14,7 @@ To use this code you need to meet the following prerequisites:
 
 It is strongly reccomended to have the following at hand:
 
- * a local web server installation, capable of 
+1. a local web server installation, capable of 
  * proxying to the aplication
  * implementing proper ssl/tls encryption
 
