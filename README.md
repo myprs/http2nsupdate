@@ -22,8 +22,10 @@ It is strongly reccomended to have the following at hand:
 
 To run this code run the shell script  
 
-```$ cd PATCH TO INSTALLATION
-$ https2nsupdate```
+```
+$ cd PATCH TO INSTALLATION
+$ https2nsupdate
+```
 
 
 
